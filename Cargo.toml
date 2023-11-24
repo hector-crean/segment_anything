@@ -1,0 +1,19 @@
+[package]
+name = "segment_anything"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+candle-core = { version = "0.3.1" }
+anyhow = "1.0.75"
+candle-transformers = "0.3.1"
+candle-nn = "0.3.1"
+candle-examples = "0.3.1"
+tracing-chrome = "0.7.1"
+image = "0.24.7"
+hf-hub = "0.3.2"
+tracing-subscriber = "0.3.18"
+clap = {version="4.4.8",features=["derive"]}
+imageproc = "0.23.0"

@@ -1,0 +1,1 @@
+cargo run --release --  --point 0.6,0.6 --point 0.6,0.55  --image assets/dogs.jpeg
